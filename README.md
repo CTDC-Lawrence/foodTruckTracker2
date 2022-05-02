@@ -14,7 +14,7 @@ Overview: This repository is to render database information and provide a unique
 
 Technologies used: HTML, CSS, Javasript, Bootstrap, and React
 
-Ideas for future improvement: Add twitter, instagram, facebook, website links and icons. Add user authentication. Add Event Calander and map by date and hours of each location
+Ideas for future improvement: Add twitter, instagram, facebook, website links and icons. Add user authentication. Add Event Calander and map by date and hours of each location. Add Newsletter registration form.
 
 # User Stories
 User story 1 - As an food enthusiast (foodie), I want to search for the best local food trucks, so that I can find them easily.
