@@ -11,6 +11,8 @@ class MyDocument extends Document {
       <Html>
         <Head>
           <meta charSet="utf-8" />
+          <link rel="icon" type="image/png" href="../public/images/favicon.png" />
+          <link rel="manifest" href="/site.webmanifest" />
           <link
             rel="stylesheet"
             href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"

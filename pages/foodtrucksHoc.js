@@ -6,7 +6,7 @@ const Foodtrucks = ({ foodtrucks }) => {
     <div>
       {foodtrucks.map(({ imageSrc, name }) => {
         return (
-          <img src={`images/${imageSrc}.jpg`} alt={name} key={imageSrc}></img>
+          <img src={`images/${imageSrc}.PNG`} alt={name} key={imageSrc}></img>
         );
       })}
     </div>
