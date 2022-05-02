@@ -41,8 +41,7 @@ function FoodtrucksList() {
           {foodtrucksData
             .filter(function (foodtruck) {
               return (
-                foodtruck.first.toLowerCase().includes(searchQuery) ||
-                foodtruck.last.toLowerCase().includes(searchQuery)
+                foodtruck.name.toLowerCase().includes(searchQuery) 
               );
             })
             .filter(function (foodtruck) {

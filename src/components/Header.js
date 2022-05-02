@@ -10,14 +10,14 @@ function Header({ loggedInUser, setLoggedInUser }) {
       <div className="container mobile-container">
         <div className="d-flex justify-content-between">
           <div>
-            <img alt="SVCC Home Page" src="/images/SFFTTLogo.png" />
+            <img alt="SFFTT Home Page" src="/images/SFFTTLogo.png" />
           </div>
           <div className="light">
           </div>
           <div className={theme === "light" ? "" : "text-info"}>
             {loggedInUser && loggedInUser.length > 0 ? (
               <div>
-                <span>Logged in as {loggedInUser} </span>
+                <span>Hello, {loggedInUser}! </span>
                 <button
                   className="btn btn-secondary"
                   onClick={() => {

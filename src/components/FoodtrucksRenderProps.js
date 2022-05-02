@@ -1,8 +1,8 @@
 function FoodtrucksRenderProps(props) {
   const foodtrucks = [
-    { imageSrc: "foodtruck-1124", name: "Douglas Crockford" },
-    { imageSrc: "foodtruck-1530", name: "Tamara Baker" },
-    { imageSrc: "foodtruck-10803", name: "Eugene Chuvyrov" },
+    { imageSrc: "foodtruck-1", name: "Las Mexicanas" },
+    { imageSrc: "foodtruck-2", name: "Taqueria El Paisa" },
+    { imageSrc: "foodtruck-3", name: "Master Arepa" },
   ];
   return props.children({
     foodtrucks: foodtrucks,

@@ -49,7 +49,7 @@ function ImageWithFallback({ src, ...props }) {
 
 function FoodtruckImage() {
   const {
-    foodtruck: { id, first, last },
+    foodtruck: { id, name },
   } = useContext(FoodtruckContext);
   return (
     <div className="foodtruck-img d-flex flex-row justify-content-center align-items-center h-300">
@@ -57,7 +57,7 @@ function FoodtruckImage() {
         className="contain-fit"
         src={`/images/foodtruck-${id}.PNG`}
         width="300"
-        alt={`${first} ${last}`}
+        alt={`${name}`}
       />
     </div>
   );
@@ -105,12 +105,12 @@ function FoodtruckFavorite() {
 
 function FoodtruckDemographics() {
   const { foodtruck } = useContext(FoodtruckContext);
-  const { first, last, bio, website, twitterHandle, favorite } = foodtruck;
+  const { name, bio, website, twitterHandle, favorite } = foodtruck;
   return (
     <div className="foodtruck-info">
       <div className="d-flex justify-content-between mb-3">
         <h3 className="text-truncate w-200">
-          {first} {last}
+          {name}
         </h3>
       </div>
       <FoodtruckFavorite />
@@ -139,7 +139,7 @@ const FoodtruckNoErrorBoundary = memo(function Foodtruck({
   showErrorCard,
 }) {
   const { showLocations } = useContext(FoodtruckFilterContext);
-  console.log(`foodtruck: ${foodtruck.id} ${foodtruck.first} ${foodtruck.last}`);
+  console.log(`foodtruck: ${foodtruck.id} ${foodtruck.name}`);
   if (showErrorCard) {
     return (
       <div className="col-xs-12 col-sm-12 col-md-6 col-lg-4 col-sm-12 col-xs-12">

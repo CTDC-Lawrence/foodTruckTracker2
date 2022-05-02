@@ -10,18 +10,17 @@ function FoodtruckAdd({ eventYear, insertRecord, loggedInUser }) {
       <i
         onClick={(e) => {
           e.preventDefault();
-          const firstLast = window.prompt("Enter first and last name:", "");
-          const firstLastArray = firstLast.split(" ");
+          const name = window.prompt("Enter name:", "");
+          const nameArray = name.split(" ");
           insertRecord({
             id: "99999",
-            first: firstLastArray[0],
-            last: firstLastArray[1], 
+            name: nameArray[0],
             bio: "Bio not entered yet",
             locations: [
               {
                 id: "88888",
-                title: `New location For ${firstLastArray[0]}`,
-                room: {
+                title: `New location For ${nameArray[0]}`,
+                event: {
                   name: "Main Ball Room",
                 },
                 eventYear,

@@ -1,8 +1,7 @@
 export const data = [
   {
     id: "1",
-    first: "Las",
-    last: "Mexicanas",
+    name: "Las Mexicanas",
     website: "www.mexicanaslas.com",
     bio:
       "The mission of Las Mexicanas Food Truck is to provide the most delicious tasting and freshest authentic mexican food.",
@@ -56,8 +55,7 @@ export const data = [
 
   {
     id: "2",
-    first: "Taqueria",
-    last: "El Paisa",
+    name: "Taqueria El Paisa",
     website: "taqueria-food-truck-fort-lauderdale.edan.io",
     bio:
       "If you're a Mexican cuisine lover, come here. At this restaurant, order mouthwatering mexican tacos, chicken and fish.",
@@ -153,8 +151,7 @@ export const data = [
   
   {
     id: "3",
-    first: "Master",
-    last: "Arepa",
+    name: "Master Arepa",
     website: "taqueria-food-truck-fort-lauderdale.edan.io",
     bio: "Master Arepa is a Colombian/Mexican fusion food truck that serves 100% corn arepas and tortillas in south Florida.",
     twitterHandle: "@MasterArepa",
@@ -291,8 +288,7 @@ export const data = [
 
   {
     id: "4",
-    first: "Master",
-    last: "Arepa",
+    name: "Master Arepa",
     website: "masterarepa.com",
     bio: "Master Arepa is a Colombian/Mexican fusion food truck that serves 100% corn arepas and tortillas in south Florida.",
     twitterHandle: "@MasterArepa",
@@ -345,8 +341,7 @@ export const data = [
 
   {
     id: "5",
-    first: "The Cuban",
-    last: "Press",
+    name: "The Cuban Press",
     website: "thecubanpress.com",
     bio: "Cuban style burrito “ Cuban picadillo, sweet plantains, red beans, Goya hot sauce, and “”",
     twitterHandle: "@theCubanPress",
@@ -399,8 +394,7 @@ export const data = [
 
   {
     id: "6",
-    first: "Brunos",
-    last: "Catering",
+    name: "Brunos Catering",
     website: "www.brunoseats365.com",
     bio: "We Cater All Events!",
     twitterHandle: "@BrunosCatering",
@@ -453,8 +447,7 @@ export const data = [
 
   {
     id: "7",
-    first: "D-Land",
-    last: "Kitchen",
+    name: "D-Land Kitchen",
     website: "www.dlandkitchen.com",
     bio: "The D-LAND Kitchen team provides both innovative or traditional style catering.",
     twitterHandle: "@DLandKitchen",
@@ -506,8 +499,7 @@ export const data = [
   },
   {
     id: "8",
-    first: "JBs",
-    last: "Cheesesteak",
+    name: "JBs Cheesesteak",
     website: "jbscheesesteak.com",
     bio: "JBs Cheesesteaks are the best in town, always good and fast!",
     twitterHandle: "@JBsCheesesteak",
