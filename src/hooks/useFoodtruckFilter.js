@@ -6,12 +6,10 @@ function useFoodtruckFilter(startingShowLocations, startingEventYear) {
   const [searchQuery, setSearchQuery] = useState("");
 
   const EVENT_YEARS = [
-    "2017",
-    "2018",
-    "2019",
     "2020",
     "2021",
-    "2022"
+    "2022",
+    "2023"
   ];
 
   return {

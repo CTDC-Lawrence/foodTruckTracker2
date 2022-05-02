@@ -10,35 +10,50 @@ export const data = [
     favorite: true,
     locations: [
       {
-        id: "32",
-        title: "Rails powered by GlassFish",
+        id: "101",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2022",
         event: {
-          name: "Cornell Hall",
+          name: "Tortuga Festival",
           capacity: 0,
         },
       },
       {
-        id: "264",
-        title:
-          "Using Eclipse for Java EE 6 development for the GlassFish™ Application Server",
-        eventYear: "2021",
+        id: "102",
+        title: "Seafood Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
         event: {
-          name: "5503",
-          capacity: 44,
+          name: "Seafood Festival",
+          capacity: 0,
         },
       },
       {
-        id: "265",
-        title: "Dynamic Languages &amp; Web Frameworks in GlassFish",
-        eventYear: "2020",
+        id: "103",
+        title: "4th of July",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
         event: {
-          name: "4204",
-          capacity: 45,
+          name: "4th of July",
+          capacity: 0,
         },
-      },     
+      }, 
     ],
   },
+
   {
     id: "2",
     first: "Taqueria",
@@ -50,35 +65,92 @@ export const data = [
     favorite: false,
     locations: [
       {
-        id: "1011",
-        title: "Decomposing applications for scalability and deployability",
+        id: "201",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2022",
         event: {
-          name: "4306",
-          capacity: 100,
-        },
+          name: "Tortuga Festival",
+          capacity: 0
+        }
       },
       {
-        id: "1133",
-        title: "Developing polyglot persistence applications",
+        id: "202",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "203",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Halloween",
+          capacity: 0
+        }
+      },
+      {
+        id: "204",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2021",
         event: {
-          name: "5502",
-          capacity: 70,
-        },
+          name: "Tortuga Festival",
+          capacity: 0
+        }
       },
       {
-        id: "1136",
-        title:
-          "Consuming web services asynchronously with Futures and Rx Observables",
-        eventYear: "2020",
+        id: "205",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
         event: {
-          name: "8338",
-          capacity: 120,
-        },
+          name: "Fantasy Fest",
+          capacity: 0
+        }
       },
+      {
+        id: "206",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
+        event: {
+          name: "Halloween",
+          capacity: 0
+        }
+      }
     ],
   }, 
+  
   {
     id: "3",
     first: "Master",
@@ -89,45 +161,244 @@ export const data = [
     favorite: true,
     locations: [
       {
-        id: "12",
-        title: "JavaScript: The Good Parts (Part 1)",
+        id: "301",
+        title: "Cinco De Mayo",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2022",
         event: {
-          name: "Cornell Hall",
-          capacity: 0,
-        },
+          name: "Cinco De Mayo",
+          capacity: 0
+        }
       },
       {
-        id: "121",
-        title: "JavaScript: The Good Parts (Part 2)",
+        id: "302",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "303",
+        title: "Bark at the Park",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Bark at the Park",
+          capacity: 0
+        }
+      },
+      {
+        id: "304",
+        title: "Cinco De Mayo",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2021",
         event: {
-          name: "Cornell Hall",
-          capacity: 0,
-        },
+          name: "Cinco De Mayo",
+          capacity: 0
+        }
       },
       {
-        id: "176",
-        title: "JavaScript: The Good Parts",
-        eventYear: "2019",
+        id: "305",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
         event: {
-          name: "5501",
-          capacity: 70,
-        },
+          name: "Fantasy Fest",
+          capacity: 0
+        }
       },
       {
-        id: "177",
-        title: "JavaScript Town Meeting",
-        eventYear: "2018",
+        id: "306",
+        title: "Bark at the Park",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
         event: {
-          name: "5501",
-          capacity: 70,
-        },
+          name: "Bark at the Park",
+          capacity: 0
+        }
       },
+      {
+        id: "307",
+        title: "Cinco De Mayo",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2020",
+        event: {
+          name: "Cinco De Mayo",
+          capacity: 0
+        }
+      },
+      {
+        id: "308",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2020",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "309",
+        title: "Bark at the Park",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2020",
+        event: {
+          name: "Bark at the Park",
+          capacity: 0
+        }
+      }
     ],
   },
+
+  {
+    id: "4",
+    first: "Master",
+    last: "Arepa",
+    website: "masterarepa.com",
+    bio: "Master Arepa is a Colombian/Mexican fusion food truck that serves 100% corn arepas and tortillas in south Florida.",
+    twitterHandle: "@MasterArepa",
+    favorite: false,
+    locations: [
+      {
+        id: "401",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Tortuga Festival",
+          capacity: 0
+        }
+      },
+      {
+        id: "402",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "403",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2020",
+        event: {
+          name: "Halloween",
+          capacity: 0
+        }
+      }
+    ]
+  },
+
   {
     id: "5",
+    first: "The Cuban",
+    last: "Press",
+    website: "thecubanpress.com",
+    bio: "Cuban style burrito “ Cuban picadillo, sweet plantains, red beans, Goya hot sauce, and “”",
+    twitterHandle: "@theCubanPress",
+    favorite: true,
+    locations: [
+      {
+        id: "501",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Tortuga Festival",
+          capacity: 0
+        }
+      },
+      {
+        id: "502",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "503",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2022",
+        event: {
+          name: "Halloween",
+          capacity: 0
+        }
+      }
+    ]
+  },
+
+  {
+    id: "6",
     first: "Brunos",
     last: "Catering",
     website: "www.brunoseats365.com",
@@ -136,18 +407,52 @@ export const data = [
     favorite: true,
     locations: [
       {
-        id: "7548",
-        title: "React Is Your Friend: A Gentle Intro to the React Library",
+        id: "601",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2022",
         event: {
-          name: "Town Square B",
-          capacity: 130,
-        },
+          name: "Tortuga Festival",
+          capacity: 0
+        }
       },
+      {
+        id: "602",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "603",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2020",
+        event: {
+          name: "Halloween",
+          capacity: 0
+        }
+      }
     ],
   },
+
   {
-    id: "6",
+    id: "7",
     first: "D-Land",
     last: "Kitchen",
     website: "www.dlandkitchen.com",
@@ -156,18 +461,51 @@ export const data = [
     favorite: true,
     locations: [
       {
-        id: "7549",
-        title: "A Gentle Intro to Reactive Java Programming and Systems",
+        id: "701",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2022",
         event: {
-          name: "Fireside A",
-          capacity: 80,
-        },
+          name: "Tortuga Festival",
+          capacity: 0
+        }
       },
+      {
+        id: "702",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2021",
+        event: {
+          name: "Fantasy Fest",
+          capacity: 0
+        }
+      },
+      {
+        id: "703",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
+        eventYear: "2020",
+        event: {
+          name: "Halloween",
+          capacity: 0
+        }
+      }
     ],
   },
   {
-    id: "7",
+    id: "8",
     first: "JBs",
     last: "Cheesesteak",
     website: "jbscheesesteak.com",
@@ -176,42 +514,47 @@ export const data = [
     favorite: false,
     locations: [
       {
-        id: "86",
-        title:
-          "The Performance Limitations  of the Java Platform ... and how to avoid them",
+        id: "801",
+        title: "Tortuga Festival",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2022",
         event: {
-          name: "Cornell Hall",
-          capacity: 0,
-        },
+          name: "Tortuga Festival",
+          capacity: 0
+        }
       },
       {
-        id: "6089",
-        title: "So your mom always wanted you to be an architect",
+        id: "802",
+        title: "Fantasy Fest",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2021",
         event: {
-          name: "C209",
-          capacity: 55,
-        },
+          name: "Fantasy Fest",
+          capacity: 0
+        }
       },
       {
-        id: "7440",
-        title: "How to Think like a Software Architect",
+        id: "803",
+        title: "Halloween",
+        address: "300 E Las Olas Blvd",
+        city: "Fort Lauderdale",
+        state: "Florida",
+        zip: "33301",
+        phoneNumber: "954-123-4567",
         eventYear: "2020",
         event: {
-          name: "Fireside A",
-          capacity: 80,
-        },
-      },
-      {
-        id: "7551",
-        title: 'How to "think" (and design) like a Software Architect',
-        eventYear: "2019",
-        event: {
-          name: "Town Square B",
-          capacity: 130,
-        },
-      },
+          name: "Halloween",
+          capacity: 0
+        }
+      }
     ],
   },
 ];
