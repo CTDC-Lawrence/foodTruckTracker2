@@ -1,27 +1,12 @@
 {
   "foodtrucks": [
     {
-      "id": "9",
-      "name": "New",
-      "bio": "Bio not entered yet",
-      "locations": [
-        {
-          "id": "88888",
-          "title": "New location For New",
-          "event": {
-            "name": "Main Ball Room"
-          },
-          "eventYear": "2022"
-        }
-      ]
-    },
-    {
       "id": "1",
       "name": "Las Mexicanas",
       "website": "www.mexicanaslas.com",
       "bio": "The mission of Las Mexicanas Food Truck is to provide the most delicious tasting and freshest authentic mexican food.",
       "twitterHandle": "@MexicanasLas",
-      "favorite": true,
+      "favorite": false,
       "locations": [
         {
           "id": "101",
