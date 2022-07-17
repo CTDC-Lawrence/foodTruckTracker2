@@ -1,7 +1,8 @@
-# foodTruckTracker2
+# foodTruckTracker
 South Florida Food Truck Tracker
 
-# Modified Design from Pluralsight Course "Designing React Components" by Peter Kellner
+# References
+Modified Design from Pluralsight Course "Designing React Components" by Peter Kellner
 Reference: github.com/pkellner/pluralsight-designing-react-components-course-code
 For Demonstration and Educational Purposes Only
 
